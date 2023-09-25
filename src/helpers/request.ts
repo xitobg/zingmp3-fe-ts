@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const request = axios.create({
-  baseURL: 'https://musictes.vercel.app/api',
+  baseURL: 'https://api-zingmp3-public.vercel.app/api',
 })
 
 request.interceptors.response.use(
