@@ -2,7 +2,7 @@ import request from '@/helpers/request'
 
 export function fetchPlaylist(id: string) {
   return request({
-    url: '/playlist?id=' + id
+    url: '/detailplaylist?id=' + id
   })
 }
 
@@ -20,7 +20,7 @@ export function fetchHome(page = 1) {
 
 export function fetchSong(id: string) {
   return request({
-    url: '/song?id=' + id
+    url: '/infosong?id=' + id
   })
 }
 
